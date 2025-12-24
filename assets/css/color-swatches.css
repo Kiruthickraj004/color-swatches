@@ -1,0 +1,32 @@
+.product-color-swatches {
+    margin-top: 15px;
+}
+
+.product-color-swatches strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.product-color-swatches .swatches {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.product-color-swatches .swatch {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.product-color-swatches .swatch:hover {
+    transform: scale(1.06);
+}
+
+.product-color-swatches .swatch.active {
+    border-color: #000;
+} 
